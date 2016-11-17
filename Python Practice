@@ -1,5 +1,0 @@
-print("Welcome to GitHub")
-var1 = int(input("Please type in a number"))
-var2 = var1 % 9
-print(var2 + " is the answer of the number you typed in modulo 9")
-

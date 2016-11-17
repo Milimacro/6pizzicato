@@ -1,0 +1,24 @@
+print("Welcome to GitHub")
+var1 = int(input("Please type in a number"))
+var2 = var1 % 9
+print(var2 + " is the answer of the number you typed in modulo 9")
+if var1 > 1000:
+  print("You have typed in a very big number")
+  var1 = var1 - 1000
+else:
+  print("You picked a good number")
+  var3 = y
+var4 = int(input("Please type in a negative number"))
+if var4 > 0:
+  print("Negative, smarty aleck")
+else:
+  print("Thanks")
+var5 = int(input("Type in a negative number"))
+if var5 > 0
+  print("I don't even care anymore")
+else:
+  print("Thanks")
+var6 = var5 ** 2
+print("See look at that smarty, two negatives multiplied make a positive")
+
+
