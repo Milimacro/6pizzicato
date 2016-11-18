@@ -3,22 +3,22 @@ op = input("Type in an operation (+ - * / ^ %) SYMBOL ONLY")
 print("Now please type in two numbers to operate on, in the order that they appear in the equation")
 num1 = input("Number one is: ")
 num2 = input("Number two is: ")
-if op = +:
+if op == +:
   ans = num1 + num2
 else:
-if op = -:
+if op == -:
   ans = num1 - num2
 else:
-if op = *:
+if op == *:
   ans = num1 * num2
 else:
-if op = /:
+if op == /:
   ans = num1 / num2
 else:
-if op = ^:
+if op == ^:
   ans = num1 ** num2
 else:
-if op = %:
+if op == %:
   ans = num1 % num2
 else:
 print("Please type in a variable. Restart the program.")
