@@ -6,4 +6,20 @@ num2 = input("Number two is: ")
 if op = +:
   ans = num1 + num2
 else:
-if 
+if op = -:
+  ans = num1 - num2
+else:
+if op = *:
+  ans = num1 * num2
+else:
+if op = /:
+  ans = num1 / num2
+else:
+if op = ^:
+  ans = num1 ** num2
+else:
+if op = %:
+  ans = num1 % num2
+else:
+print("Please type in a variable. Restart the program.")
+print(ans)
