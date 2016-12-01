@@ -1,0 +1,20 @@
+print("Welcome to Txt.Adv 0.1 beta")
+print("Please remember to not type capital letters")
+print("Syntax requirements: to pick something up, say pick up [object]. To walk in a certain direction, type walk [north]")
+print("/n" * 80)
+print("You find yourself in the middle of a great plain. The only thing near you is a silver sword and a hunk of bread. To the west and the south the plain continues. To the east there is a forest. To the north there is a town")
+one = input()
+if one = "pick up sword":
+  print("The sword has been added to your inventory. It may be useful later.")
+  haveSword = True
+elif one = "pick up bread":
+  print("The bread has been added to your inventory")
+  haveBread = True
+elif one = "walk east":
+  print("You find yourself in a dense forest. Trees surround you")
+elif one = "walk west":
+  print("You are still stuck in the plains")
+elif one = "walk south":
+  print("You are still stuck in the plains")
+elif one = "walk north":
+  print("You find yourself in a vibrant town")
