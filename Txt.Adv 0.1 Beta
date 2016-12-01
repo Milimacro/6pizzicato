@@ -12,9 +12,22 @@ elif one = "pick up bread":
   haveBread = True
 elif one = "walk east":
   print("You find yourself in a dense forest. Trees surround you")
+  walkEast = True
 elif one = "walk west":
   print("You are still stuck in the plains")
+  walkWest = True
 elif one = "walk south":
   print("You are still stuck in the plains")
+  walkSouth = True
 elif one = "walk north":
   print("You find yourself in a vibrant town")
+  walkNorth = True
+else:
+  print("The master can't compute")
+if walkSouth or walkWest:
+  print("You are still in the plain. Would you walk in a different direction?")
+  input()
+  
+ 
+  
+
