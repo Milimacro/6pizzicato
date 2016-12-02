@@ -26,7 +26,13 @@ else:
   print("The master can't compute")
 if walkSouth or walkWest:
   print("You are still in the plain. Would you walk in a different direction?")
-  input()
+  two = input()
+  if two == walkSouth and walkSouth:
+    walkSouth2 = True
+    print("You are still in the plains. Next to you there is a hole leading to a tunnel. To go into the tunnel, type [enter tunnel]")
+    
+    
+
   
  
   
